@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:andriod="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="4"
+        android:rowCount="5" >
+        <!--    row #1    -->
+        <Button
+            android:id="@+id/btnClear"
+            style="@style/SpecialButton"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="C" />
+        <Button
+            android:id="@+id/btnMultiply"
+            android:text="*"
+            style="@style/OperatorButton"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <Button
+            android:id="@+id/btnDivide"
+            android:text="/"
+            style="@style/OperatorButton"
+            android:layout_row="0"
+            android:layout_column="2" />
+        <Button
+            android:id="@+id/btnPercent"
+
+            android:text="%"
+            style="@style/OperatorButton"
+            android:layout_row="0"
+            android:layout_column="3" />
+
+        <!--    row #2    -->
+        <Button
+            android:id="@+id/btnSeven"
+            style="@style/NumberButton"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="7" />
+        <Button
+            android:id="@+id/btnEight"
+            android:text="8"
+            style="@style/NumberButton"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <Button
+            android:id="@+id/btnNine"
+            android:text="9"
+            style="@style/NumberButton"
+            android:layout_row="1"
+            android:layout_column="2" />
+        <Button
+            android:id="@+id/btnMinus"
+            android:text="-"
+            style="@style/OperatorButton"
+            android:layout_row="1"
+            android:layout_column="3" />
+
+
+        <!--    row #3    -->
+        <Button
+            android:id="@+id/btnFour"
+            style="@style/NumberButton"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="4" />
+        <Button
+            android:id="@+id/btnFive"
+            android:text="5"
+            style="@style/NumberButton"
+            android:layout_row="2"
+            android:layout_column="1" />
+
+        <Button
+            android:id="@+id/btnSix"
+            android:text="6"
+            style="@style/NumberButton"
+            android:layout_row="2"
+            android:layout_column="2" />
+        <Button
+            android:id="@+id/btnPlus"
+            android:text="+"
+            style="@style/OperatorButton"
+            android:layout_row="2"
+            android:layout_column="3" />
+
+        <!--    row #4    -->
+        <Button
+            android:id="@+id/btnOne"
+            style="@style/NumberButton"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="1" />
+        <Button
+            android:id="@+id/btnTwo"
+            android:text="2"
+            style="@style/NumberButton"
+            android:layout_row="3"
+            android:layout_column="1" />
+
+        <Button
+            android:id="@+id/btnThree"
+            android:text="3"
+            style="@style/NumberButton"
+            android:layout_row="3"
+            android:layout_column="2" />
+
+        <Button
+            android:id="@+id/btnEqual"
+            style="@style/SpecialButton"
+            android:layout_height="191dp"
+            android:layout_row="3"
+            android:layout_rowSpan="2"
+            android:layout_column="3"
+            android:text="=" />
+
+        <!--    row #5    -->
+        <Button
+            android:id="@+id/btnDecimal"
+            style="@style/NumberButton"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="." />
+        <Button
+            android:id="@+id/btnZero"
+            android:text="0"
+            style="@style/NumberButton"
+            android:layout_row="4"
+            android:layout_column="1" />
+
+        <Button
+            android:id="@+id/btnDblZero"
+            android:text="00"
+            style="@style/NumberButton"
+            android:layout_row="4"
+            android:layout_column="2" />
+
+
+
+
+
+    </GridLayout>
+
+</LinearLayout>

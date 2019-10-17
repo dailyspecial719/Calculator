@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--    special button  -->
+
+    <style name="SpecialButton">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">70sp</item>
+        <item name="android:background">@color/btnSpecialBG</item>
+        <item name="android:textColor">@color/btnSpecialTxt</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+    </style>
+
+    <!--    operator button  -->
+
+    <style name="OperatorButton">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">70sp</item>
+        <item name="android:background">@color/btnOperatorBG</item>
+        <item name="android:textColor">@color/btnOperatorTxt</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+    </style>
+
+    <!--    number button  -->
+
+    <style name="NumberButton">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">70sp</item>
+        <item name="android:background">@color/btnNumBG</item>
+        <item name="android:textColor">@color/btnNumTxt</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+    </style>
+
+
+</resources>

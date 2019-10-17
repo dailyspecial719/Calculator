@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6D98A5</color>
+    <color name="colorPrimaryDark">#314C50</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- number buttons -->
+    <color  name="btnNumBG">#333333</color>
+    <color  name="btnNumTxt">#A0A0A0</color>
+
+    <!-- operator buttons -->
+    <color  name="btnOperatorBG">#A0A0A0</color>
+    <color  name="btnOperatorTxt">#333333</color>
+
+    <!-- special buttons -->
+    <color  name="btnSpecialBG">#FD5000</color>
+    <color  name="btnSpecialTxt">#333333</color>
+
+
+</resources>
